@@ -1,67 +1,148 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# test technique
+Partie I
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+    Nom et prénom: Abderrahman Fennane
+    Adresse: Sidi Maarouf
+    Employeur actuel: HJB TECHNOLOGIES
+    Objectif professionnel: Développeur backend
+    Expérience professionnelle: Moins ou égale à 1 an
 
-## About Laravel
+Partie II
+A. Questions Générales
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+    Git: Expliquez Git et différence avec SVN.
+        Réponse: Git est une plateforme de gestion de version distribuée qui permet de suivre les modifications effectuées dans les fichiers de code source. Au lieu de stocker uniquement les modifications, Git conserve toutes les versions complètes de chaque fichier, contrairement à SVN (Subversion).
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+    Composer.lock: Utilisation et importance dans le développement PHP.
+        Réponse: Les versions précises de toutes les dépendances d'un projet PHP installées via Composer sont enregistrées dans le fichier composer.lock. Cela assure que chaque membre de l'équipe de développement utilise les mêmes versions de dépendances pour travailler.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+    require vs require-dev: Différence dans composer.json.
+        Réponse: Les dépendances nécessaires pour exécuter le code en production sont spécifiées par require, tandis que les dépendances nécessaires pour le développement ou les tests sont spécifiées par require-dev.
 
-## Learning Laravel
+    Object Pool Pattern: Définition.
+        Réponse: Le Pattern de Pool d'Objets est un modèle de design qui améliore les performances et la gestion de la mémoire en réutilisant les objets déjà activés.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+    git diff: Utilité.
+        Réponse: On utilise la commande git diff afin de montrer les variations entre les modifications apportées dans le répertoire de travail et l'index.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+B. JavaScript
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+    CORS: Définition.
+        Réponse: Les navigateurs web utilisent le CORS pour autoriser la demande de ressources web à partir d'un domaine différent de celui où la page initiale a été chargée.
 
-## Laravel Sponsors
+    == vs ===: Différence.
+        Réponse: == est un opérateur d'égalité qui compare des valeurs en convertissant des types, tandis que === est un opérateur d'égalité strict qui compare les valeurs et les types de données les uns avec les autres.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+    return if ("0" == "true"): Résultat.
+        Réponse: False. C'est une comparaison de deux chaînes de caractères, "0" est différente de la chaîne "true".
 
-### Premium Partners
+    this: Signification.
+        Réponse: Cela désigne l'objet sur lequel une méthode est appelée. La valeur de this varie en fonction du contexte dans lequel elle est utilisée.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+    Asynchronisme: Explication, Promises, async/await.
 
-## Contributing
+    Réponse: Il est possible à cause de l'asynchronisme d'exécuter plusieurs tâches simultanément sans perturber le thread principal. Les Promises sont des objets qui permettent de représenter une valeur qui peut être disponible à présent, à l'avenir ou jamais, tandis que async/await est une syntaxe qui permet de travailler de manière asynchrone de manière plus lisible.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+C. CSS
 
-## Code of Conduct
+    inline vs block: Différence.
+        Réponse: Les éléments block prennent toute la largeur disponible et démarrent sur une nouvelle ligne, tandis que les éléments inline ne prennent que la largeur requise.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+    Responsive sans media queries: Possibilité.
+        Réponse: Oui, mais les média queries offrent la possibilité de personnaliser la mise en page en fonction des caractéristiques de l'appareil, comme la taille de l'écran, l'orientation, etc.
 
-## Security Vulnerabilities
+    inline-block, flex, float: Avantages/inconvénients.
+        Réponse: Le bloc inline présente des avantages : il permet d'aligner les éléments horizontalement Conséquences - Il arrive parfois que des espaces blancs indésirables se forment entre les éléments //// Avantages de flex : Permet un alignement dynamique des éléments en fonction de l'espace disponible. Conséquences - Il est nécessaire d'avoir une certaine connaissance de la syntaxe //// Avantages de float : Pratique pour aligner les éléments à gauche ou à droite d'un récipient. Conséquences: Le flottement peut causer des difficultés de surcharge de contenu et de mise en page.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
+    ::before et ::after: Utilisation.
+        Réponse: On peut utiliser les pseudo-éléments ::before et ::after pour insérer du contenu généré avant et après le contenu de l'élément ciblé.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-"# testAbderrehman" 
+D. PHP
+
+    Programme: Imprimer nombres 1 à 100 avec conditions.
+        Réponse: 16.	
+        <?php
+          for ($i = 1; $i <= 100; $i++) {
+              $output = ($i % 3 == 0 ? "Dev" : "") . ($i % 5 == 0 ? "Ops" : "");
+        	        echo $output? $output . "<br>" : $i . "<br>";
+        	    }
+  	    ?>
+
+    isPrime function: Vérifier si un nombre est premier.
+        Réponse: 
+        <?php
+        function isPrime($num) {
+            if ($num <= 1) {
+                return false;
+        	    }
+           for ($i = 2; $i <= sqrt($num); $i++) {
+                if ($num % $i == 0) {
+                   return false;
+        	        }
+	        }
+
+         return true;
+         }
+      echo isPrime(70) ? 'Prime' : 'Composite';
+      ?>
+
+
+
+    Résultat de l'exécution du code PHP: Explication ligne par ligne.
+        Réponse: 
+        a.	Un tableau nommé $array : [3, 8, -4, 0, 2, -9].
+          b.	La boucle foreach est utilisée pour parcourir chaque élément du tableau $array. Pour chaque objet $item, nous procédons de la manière suivante :
+          •	Lorsque la valeur de $item est supérieure ou égale à zéro ($item >= 0), nous ne la modifions pas.
+          •	Si $item est négatif, sa valeur est remplacée par son carré en utilisant la fonction pow($item,2)
+          c.	Après avoir parcouru tous les éléments du tableau, la boucle foreach prend fin.
+          d.	Finalement, nous montrons le contenu actualisé du tableau en utilisant la fonction print_r($array), ce qui donnera l'affichage de [3, 8, 16, 0, 2, 81].
+
+E. DATABASE
+
+    Nombre d'employés par jour d'inscription: Requête SQL.
+        Réponse: SELECT DATE(create_at) AS date_inscription, COUNT(*) AS nb_employés
+		FROM employee
+	GROUP BY DATE(create_at);
+
+
+    Employés inscrits le 3/10/2021: Requête SQL.
+        Réponse: SELECT *
+	FROM employee
+	WHERE DATE(create_at) = '2021-10-03';
+
+    Employés avec email spécifique: Requête SQL.
+        Réponse: SELECT * 
+	FROM employee 
+	WHERE email REGEXP '^[bcdfghjklmnpqrstvwxyz][0-9]';
+
+
+    Mise en minuscules des noms: Requête SQL.
+        Réponse: UPDATE employee
+	SET first_name = LOWER(first_name), last_name = LOWER(last_name);
+
+
+    Modification de colonne: Requête SQL.
+        Réponse: ALTER TABLE employee
+	CHANGE COLUMN create_at date_creation TIMESTAMP;
+
+    Différence entre DELETE et TRUNCATE: Explication.
+        Réponse: •	DELETE : Supprime les enregistrements spécifiés d'une table. Il peut être accompagné d'une condition pour filtrer les enregistrements à supprimer. 
+                •	TRUNCATE : Supprime tous les enregistrements d'une table sans condition. Il réinitialise l'auto-incrémentation des clés primaires et libère l'espace de stockage utilisé par la table.
+
+
+    Liste des employés avec salaire supérieur: Requête SQL.
+        Réponse: SELECT *
+	FROM employee
+	WHERE salaire > 2 * (SELECT MIN(salaire) FROM employee);
+# test Pratique
+composer update  
+
+php artisan migrate
+
+php artisan serve  
+
+npm install  
+ 
+npm run dev  
+
